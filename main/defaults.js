@@ -57,7 +57,8 @@ async function saveToChrome() {
 				"replace": true,
 				"replace_with": "tfxtok.com",
 				"websites": [
-				  "vm.tiktok.com"
+				  "vm.tiktok.com",
+				  "tiktok.com"
 				]
 			  },
 			  {
