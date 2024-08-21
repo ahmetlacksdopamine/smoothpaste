@@ -1,0 +1,72 @@
+body {
+	background-color: #2d2631;
+	color: white;
+	zoom: 150%;
+}
+
+.topright {
+	position: fixed;
+	right: 3%;
+	top: 3%;
+}
+
+.topleft {
+	position: fixed;
+	left: 3%;
+	top: 3%;
+}
+
+.icon-btn {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.icon-btn:hover {
+	background-color: rgba(128, 128, 128, 0.317);
+}
+
+.mainbody {
+	margin-top: 15px;
+}
+
+a {
+	color: white;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+#save {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.editor {
+	position: absolute !important;
+	width: 90%;
+	height: 85%;
+	padding: 10px;
+	margin: 10px;
+	resize: vertical;
+	overflow: auto;
+}
+
+/* .hide_in_newtab {
+	display: unset;
+} */
+
+.bigtext {
+	font-size: 1.5em;
+}
+
+#file-picker {
+	padding: 10px;
+	margin: 10px;
+	zoom: 150%;
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+}

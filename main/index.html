@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Smoothpaste</title>
+	<meta charset="utf-8">
+
+	<script type="module" src="defaults.js"></script>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="sound-effects.js" defer></script>
+	<style>
+		body {
+			width: 350px;
+		}
+	</style>
+</head>
+
+<body>
+	<a class="icon-btn topright" href="/settings/settings.html">⚙️</a>
+
+	<div class="mainbody">
+		<a id="full" href="edit.html" data-sound="click"
+			class="icon-btn hide_in_newtab" target="_blank">[📤 edit in new tab]</a>
+
+		<table id="table" class="hide_in_newtab">
+			<tbody id="tbody">
+				<tr>
+					<th>?</th>
+					<th>URLs</th>
+					<th>replace URL?</th>
+					<th>replace with:</th>
+					<th>parameters to remove:</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</body>
+
+</html>

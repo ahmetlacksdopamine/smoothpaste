@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "Smoothpaste",
+	"description": "Just copy and paste.",
+	"version": "1.0.0",
+	"author": "ahmetlacksdopamine",
+	"action": {
+		"default_popup": "main/index.html",
+		"default_icon": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"main/script.js"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	],
+	"icons": {
+		"128": "icon-128.png"
+	},
+	"permissions": [
+		"storage",
+		"clipboardRead",
+		"clipboardWrite"
+	]
+}
